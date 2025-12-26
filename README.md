@@ -1,1 +1,7 @@
-# project3
+Before we did the unit test, the project was hard to understand. The application worked when I ran it however I had no automated way to check if the actual code logic would work under different conditions. Every time I made a change, I could have accidentally made the code not work as intended, and the only way to find out was by testing it manually which is a slow and tedious process.
+
+After adding the unit tests, it improved the reliability of the app and allowed me to check and validate different components individually. For example, I could confirm that fruit objects block bad data, and that all the he process of writing tests made me think harder about how the code should work. This led to simpler, better-organized code. By testing weird situations—like negative numbers—I was able to fix hidden problems before they caused issues.calculations are accurate. Without unit tests, it is easy for logic errors to slip through, especially as an application grows. Continuous Integration (CI), such as using GitHub, also further enhances testing. With CI in place, tests are automatically executed every time new code is pushed to the repository. This ensures that broken code never gets merged unnoticed and maintains consistent quality across the project.
+
+Overall, adding tests changed this project from something I checked by hand into a more reliable and easier-to-maintain application. Writing the tests helped improve the quality of the code and made it easier for me to understand how different parts of the Flask application work behind the scenes.
+
+
